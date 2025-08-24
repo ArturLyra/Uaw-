@@ -134,7 +134,7 @@ padding: 1rem;
 
 /* Media Queries */
 
-@media (max-width 800px){
+@media (max-width: 800px){
     .logo{
         font-size: 1.2rem;
     }
