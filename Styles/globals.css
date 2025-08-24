@@ -1,4 +1,4 @@
-*{
+s*{
 box-sizing: border-box;
 padding: 0;
 margin: 0;
@@ -301,13 +301,13 @@ width: 110%;
 
 /* Testmonials */
 
-.testminals{
+.testemonials{
     display: flex;
     padding: 4rem 1rem;
     justify-content: space-evenly;
 }
 
-.testminal{
+.testemonial{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,15 +321,15 @@ width: 110%;
     transition: 0.2s;
 }
 
-.testminal:hover{
+.testemonial:hover{
     transform: translateY(-5px);
 }
 
-.testminal p{
+.testemonial p{
     margin: 5px 0;
 }
 
-.testminal p:first-child{
+.testemonial p:first-child{
     font-weight: bold;
     font-size: 5rem;
     color: #ff0074;
@@ -337,7 +337,7 @@ width: 110%;
     line-height: 2rem;
 }
 
-.testminal p:last-child{
+.testemonial p:last-child{
     font-weight: bold;
 }
 
