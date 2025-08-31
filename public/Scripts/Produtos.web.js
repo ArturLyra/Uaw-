@@ -1,9 +1,5 @@
 const Github_LinkImageLoader = "https://raw.githubusercontent.com/AldresLuiz/UAW-ASSETS/master/imagens/";
 
-function abrirDetalhes() {
-    alert('Não sei, tentei');
-}
-
 function rateStarCounter(Produto){
     let output = "";
     for (let i = 0; i < Produto.rate; i++) {

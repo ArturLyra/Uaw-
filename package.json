@@ -1,0 +1,27 @@
+{
+  "name": "uaw-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ArturLyra/Uaw-#readme",
+  "bugs": {
+    "url": "https://github.com/ArturLyra/Uaw-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturLyra/Uaw-.git"
+  },
+  "license": "ISC",
+  "author": "AldresLuiz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file dev.env index.js",
+    "start": "node --env-file dev.env index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  }
+}
