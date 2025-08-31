@@ -1,0 +1,6 @@
+{
+  "watch": ["*.js", "*.mjs", "*.json"],
+  "ext": "js,mjs,json",
+  "ignore": ["node_modules", "public"],
+  "exec": "node --env-file dev.env index.js"
+}
