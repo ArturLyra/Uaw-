@@ -1,5 +1,9 @@
 import { AdicionarProdutos } from "/Scripts/Produtos.web.js";
 
+function abrirDetalhes() {
+    alert('Não sei, tentei');
+}
+
 const AgendaParent = document.getElementById("Agendas");
 
 const AgendaList_Ondas = [
